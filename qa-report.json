@@ -1,0 +1,41 @@
+{
+  "brand": "MatchDocket",
+  "direction": "Warm Ledger",
+  "logo": "Record Clasp",
+  "date": "2026-10-13",
+  "result": "passed",
+  "build": "Vite production build + React server-rendered HTML",
+  "core_routes": 29,
+  "rendered_routes": 38,
+  "static_link_asset_heading_check": {
+    "result": "passed",
+    "issues": []
+  },
+  "browser_checks": {
+    "desktop": "1440 \u00d7 900",
+    "mobile": "390 \u00d7 844",
+    "all_mobile_routes": "38 routes fit the viewport; wide tables scroll in their own region",
+    "runtime": "No errors recorded from final production bundle",
+    "native_scroll": "Chapter links and reading focus select the expected stage; scroll does not approve",
+    "reduced_motion": "User control gives auto scrolling, static narrative and zero-duration transitions; CSS media preference supported",
+    "navigation": "Mobile menu, route navigation and direct reload checked",
+    "queue": "Search returns one Cedar record; seeded counts and total31600 match",
+    "source_tabs": "ArrowRight selects PO with correct source; Receipt and Invoice available",
+    "review": "Explicit fictional hold approval; payment stays held; focus moves to next action",
+    "override": "Reasoned receipt-first override changes next action, preserves log and invalidates approval",
+    "dialog": "Escape closes and restores focus",
+    "scenario": "99-unit hypothetical comparison recalculates; immutable sources retained; restart returns to Received",
+    "bank_change": "AP-0419 release control is disabled; independent callback remains pending",
+    "duplicate": "AP-0421 rejection uses different service periods",
+    "export": "Downloaded labeled synthetic JSON;10400 original,9800 supported,600 variance; bank/ERP/payment flagsfalse",
+    "intake": "Required email/role/company plus unselected consent; local summary; clear resets fields and consent"
+  },
+  "honesty": "Research concept labels, fictional records, proposed offers, hypothesis prices. No real customers, live integrations, certification or ROI claims.",
+  "limits": [
+    "Forms prepare local drafts; no collection endpoint",
+    "No production authentication, financial execution or live ERP connection",
+    "Private Sites preview; GitHub/Vercel/custom domain not connected",
+    "Social profiles not published; icons do not invent links",
+    "Native reduced-motion OS setting is supported in CSS; QA used the explicit site control"
+  ]
+}

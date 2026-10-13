@@ -1,0 +1,7 @@
+import assert from 'node:assert/strict';import {readFile,access} from 'node:fs/promises';
+const data=JSON.parse(await readFile('src/data.json','utf8'));const routes=JSON.parse(await readFile('routes.json','utf8'));
+assert.equal(data.cases.length,10);assert.equal(new Set(data.cases.map(c=>c.id)).size,10);assert.equal(data.cases.reduce((n,c)=>n+c.amount,0),31600);assert.equal(data.case.amount,10400);assert.equal(data.case.supported,9800);assert.equal(data.case.quantity_variance+data.case.price_variance,600);assert.equal(data.case.amount-data.case.supported,600);assert.equal(data.case.payment_hold,true);assert.equal(data.case.bank_write,false);assert.equal(data.case.erp_write,false);assert.equal(routes.pages.length,29);assert.equal(routes.offer_contracts.length,5);
+for(const p of routes.pages)await access(`dist${p.route==='/'?'':p.route}/index.html`);
+const home=await readFile('dist/index.html','utf8');assert(home.includes('Resolve invoice'));assert(home.includes('Vendor Verification'));assert(home.includes('Hypothetical test pricing'));assert(!home.includes('Edit with Lovable'));
+const all=['Home.jsx','App.jsx','SecondaryPages.jsx','Demo.jsx'];for(const file of all){const source=await readFile(`src/${file}`,'utf8');assert(!source.includes('fetch('),`${file}: unexpected remote collection`)}
+console.log('PASS: source arithmetic, seed totals, all 29 core routes, five offers, static HTML, labels, no outbound collection.');

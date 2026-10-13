@@ -1,0 +1,172 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/product",
+      "destination": "/product/index.html"
+    },
+    {
+      "source": "/product/invoice-intake",
+      "destination": "/product/invoice-intake/index.html"
+    },
+    {
+      "source": "/product/variance-review",
+      "destination": "/product/variance-review/index.html"
+    },
+    {
+      "source": "/product/vendor-verification",
+      "destination": "/product/vendor-verification/index.html"
+    },
+    {
+      "source": "/product/coding-approvals",
+      "destination": "/product/coding-approvals/index.html"
+    },
+    {
+      "source": "/product/pay-run-readiness",
+      "destination": "/product/pay-run-readiness/index.html"
+    },
+    {
+      "source": "/who-its-for",
+      "destination": "/who-its-for/index.html"
+    },
+    {
+      "source": "/who-its-for/manufacturers",
+      "destination": "/who-its-for/manufacturers/index.html"
+    },
+    {
+      "source": "/who-its-for/distributors",
+      "destination": "/who-its-for/distributors/index.html"
+    },
+    {
+      "source": "/who-its-for/finance-teams",
+      "destination": "/who-its-for/finance-teams/index.html"
+    },
+    {
+      "source": "/erp-data-fit",
+      "destination": "/erp-data-fit/index.html"
+    },
+    {
+      "source": "/controls",
+      "destination": "/controls/index.html"
+    },
+    {
+      "source": "/pilot",
+      "destination": "/pilot/index.html"
+    },
+    {
+      "source": "/demo",
+      "destination": "/demo/index.html"
+    },
+    {
+      "source": "/demo/cases/AP-0418",
+      "destination": "/demo/cases/AP-0418/index.html"
+    },
+    {
+      "source": "/demo/report",
+      "destination": "/demo/report/index.html"
+    },
+    {
+      "source": "/request-audit",
+      "destination": "/request-audit/index.html"
+    },
+    {
+      "source": "/research",
+      "destination": "/research/index.html"
+    },
+    {
+      "source": "/research/sample-preparation",
+      "destination": "/research/sample-preparation/index.html"
+    },
+    {
+      "source": "/research/validation-method",
+      "destination": "/research/validation-method/index.html"
+    },
+    {
+      "source": "/research/faq",
+      "destination": "/research/faq/index.html"
+    },
+    {
+      "source": "/partners",
+      "destination": "/partners/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about/index.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact/index.html"
+    },
+    {
+      "source": "/sign-in",
+      "destination": "/sign-in/index.html"
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy/index.html"
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms/index.html"
+    },
+    {
+      "source": "/accessibility",
+      "destination": "/accessibility/index.html"
+    },
+    {
+      "source": "/demo/cases/AP-0419",
+      "destination": "/demo/cases/AP-0419/index.html"
+    },
+    {
+      "source": "/demo/cases/AP-0420",
+      "destination": "/demo/cases/AP-0420/index.html"
+    },
+    {
+      "source": "/demo/cases/AP-0421",
+      "destination": "/demo/cases/AP-0421/index.html"
+    },
+    {
+      "source": "/demo/cases/AP-0422",
+      "destination": "/demo/cases/AP-0422/index.html"
+    },
+    {
+      "source": "/demo/cases/AP-0423",
+      "destination": "/demo/cases/AP-0423/index.html"
+    },
+    {
+      "source": "/demo/cases/AP-0424",
+      "destination": "/demo/cases/AP-0424/index.html"
+    },
+    {
+      "source": "/demo/cases/AP-0425",
+      "destination": "/demo/cases/AP-0425/index.html"
+    },
+    {
+      "source": "/demo/cases/AP-0426",
+      "destination": "/demo/cases/AP-0426/index.html"
+    },
+    {
+      "source": "/demo/cases/AP-0427",
+      "destination": "/demo/cases/AP-0427/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/404.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ]
+}
