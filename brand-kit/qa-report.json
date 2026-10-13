@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-13",
+  "status": "Verified local brand reference, not production product",
+  "browser": "Codex in-app browser",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "horizontal_overflow": false,
+      "broken_images": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "horizontal_overflow": false,
+      "broken_images": 0
+    }
+  ],
+  "checks": {
+    "javascript_syntax": "passed",
+    "shared_cases": 10,
+    "invoice_total_usd": 31600,
+    "arithmetic": "10400 - 9800 = 600; 200 quantity + 400 price",
+    "figure_exports": 20,
+    "export_synthetic_label": "passed for all20",
+    "hero_recipes": 18,
+    "routes_mapped": 29,
+    "search_Cedar": "1 row;10400;AP-0418",
+    "bank_hold_filter": "1 row;4800;AP-0419",
+    "case_original_amount": "10400 unchanged",
+    "packet_payment_hold": "preserved; ERP/payment execution disabled",
+    "flip_accessibility": "only active face exposed;aria-expanded updated",
+    "manual_reduced_motion": "0s flip transition; static back-face swap",
+    "keyboard_tabs": "ArrowRight updates selection and focuses Case workbench",
+    "native_dialog": "focus enters close button; Escape closes; focus restored to Inspect proposal",
+    "mobile_navigation": "button expands full route navigation",
+    "text_contrast": "specified text pairs>=4.5;control outline>=3",
+    "linked_local_resources": {
+      "count": 56,
+      "errors": []
+    },
+    "history_derivation": "Daily queue counts derive from seeded received dates; final10 matches the queue."
+  },
+  "limits": [
+    "Profile URLs unconfigured; footer marks are assets only",
+    "No form backend, authentication or financial execution",
+    "No independent security/compliance audit",
+    "Hero specimens are brand composition recipes, not completed product routes",
+    "System-wide screen-reader/OS audits remain future implementation checks"
+  ]
+}

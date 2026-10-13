@@ -1,0 +1,27 @@
+{
+  "synthetic": true,
+  "concept_preview": true,
+  "packet_id": "DEMO-PKT-0418",
+  "case_id": "AP-0418",
+  "entity": "Northforge Tools / NF-01",
+  "invoice_amount": 10400,
+  "supported_comparison": 9800,
+  "disputed_variance": 600,
+  "decision": "Controller-approved hold recommendation \u2014 separate scenario specimen",
+  "reviewer": "Elena Park \u2014 fictional",
+  "payment_hold": true,
+  "payment_authorized": false,
+  "bank_reference": "Unchanged synthetic reference",
+  "erp_mapping": "Proposed ERP-neutral review schema, not validated import",
+  "erp_write": false,
+  "bank_write": false,
+  "posted": false,
+  "paid": false,
+  "evidence_refs": [
+    "INV-418:L1",
+    "PO-772:L1",
+    "GR-09:L1",
+    "POL-NF-01-v1"
+  ],
+  "assumptions": "USD; no tax, freight, returns, prior allocations or unit conversion; zero tolerance; no partial-payment authorization."
+}

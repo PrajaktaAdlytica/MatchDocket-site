@@ -1,0 +1,18 @@
+{
+  "site_version": 13,
+  "source_commit": "486526de0804d4dd7986d364d73cf4fa43952b91",
+  "url": "https://matchdocket-warm-ledger.artfullarch32.chatgpt.site/",
+  "delivery": "Live Remotion composition embedded above existing hero, 1080p design canvas, 18 seconds at 60 fps, explicitly muted",
+  "checks": {
+    "production_build": "pass \u2014 38 prerendered routes",
+    "existing_data_contracts": "pass",
+    "automatic_finish_scroll": "pass \u2014 hero top 67px below sticky header",
+    "scroll_back_replay": "pass \u2014 progress reset and playback restarted",
+    "skip_to_hero": "pass",
+    "pause_and_play": "pass",
+    "mobile_390px": "pass \u2014 no horizontal overflow",
+    "reduced_motion": "pass \u2014 still frame at 17 seconds and no autoplay",
+    "published_assets": "pass \u2014 all intro images loaded"
+  },
+  "notes": "MP4 export could not run reliably in the local render browser; the exact approved composition is embedded directly with local assets instead. No external media collection or financial execution."
+}

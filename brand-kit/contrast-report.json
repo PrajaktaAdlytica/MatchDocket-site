@@ -1,0 +1,82 @@
+[
+  {
+    "foreground": "#17271E",
+    "background": "#F7F4ED",
+    "role": "Body on canvas",
+    "ratio": 14.21,
+    "passesNormalText": true,
+    "passesNonText": true
+  },
+  {
+    "foreground": "#626D60",
+    "background": "#F7F4ED",
+    "role": "Secondary text on canvas",
+    "ratio": 4.93,
+    "passesNormalText": true,
+    "passesNonText": true
+  },
+  {
+    "foreground": "#F7F4ED",
+    "background": "#26382D",
+    "role": "Primary button",
+    "ratio": 11.34,
+    "passesNormalText": true,
+    "passesNonText": true
+  },
+  {
+    "foreground": "#26382D",
+    "background": "#DDE5D6",
+    "role": "Text on sage",
+    "ratio": 9.64,
+    "passesNormalText": true,
+    "passesNonText": true
+  },
+  {
+    "foreground": "#9B4638",
+    "background": "#F6EAE6",
+    "role": "Hold label",
+    "ratio": 5.36,
+    "passesNormalText": true,
+    "passesNonText": true
+  },
+  {
+    "foreground": "#805A1C",
+    "background": "#F4EFDF",
+    "role": "Pending label",
+    "ratio": 5.37,
+    "passesNormalText": true,
+    "passesNonText": true
+  },
+  {
+    "foreground": "#476575",
+    "background": "#E9EFF1",
+    "role": "Source label",
+    "ratio": 5.34,
+    "passesNormalText": true,
+    "passesNonText": true
+  },
+  {
+    "foreground": "#9B4638",
+    "background": "#FFFFFF",
+    "role": "Focus and hold on white",
+    "ratio": 6.31,
+    "passesNormalText": true,
+    "passesNonText": true
+  },
+  {
+    "foreground": "#FFFFFF",
+    "background": "#57705A",
+    "role": "Packet label",
+    "ratio": 5.43,
+    "passesNormalText": true,
+    "passesNonText": true
+  },
+  {
+    "foreground": "#7B8675",
+    "background": "#FFFFFF",
+    "role": "Control outline",
+    "ratio": 3.81,
+    "passesNormalText": false,
+    "passesNonText": true
+  }
+]

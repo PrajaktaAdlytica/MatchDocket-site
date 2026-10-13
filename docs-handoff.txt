@@ -1,0 +1,22 @@
+MatchDocket — published public concept preview
+URL: https://matchdocket-warm-ledger.artfullarch32.chatgpt.site
+Publication: succeeded, 13 October 2026; confirmed by Sites deployment service.
+Source commit: 70585b974c149b0bf672c2698d8179241b4de52b
+
+29 core pages plus nine additional synthetic case views: 38 rendered routes.
+Docket Signal direction from the user’s supplied image and Record Clasp logo.
+Native scroll journey, five distinct proposed workflows, reviewer controls, source tabs, reasoned override, hard bank-change hold, labeled synthetic export, complete consented local inquiry drafts.
+Desktop 1440 × 900 and mobile 390 × 844 browser QA passed.
+
+Access: public. No ChatGPT sign-in is required. Public homepage and direct demo-page reload were verified in the browser after the access setting changed.
+
+Important limits: inquiry forms do not send data; product authentication/ERP/bank/payment services are not connected. Pricing remains hypothetical. GitHub, Vercel, domain, social-profile URLs and an operational inquiry recipient remain to be configured.
+
+Source and built files: MatchDocket-website.zip
+QA detail: matchdocket-website/qa-report.json
+Screenshots: matchdocket-website/previews/
+Run instructions: matchdocket-website/README.txt
+
+Visual correction v2: condensed two-line headline, burgundy/charcoal palette, scanned-paper invoice collage, horizontal evidence chain, five distinct live HTML card figures, dark before/after audit section, one-entity sample strip. Data arithmetic and controls follow the brief where the reference image differs.
+Latest captures: matchdocket-website/previews/signal-home-desktop-1440.png, signal-home-mobile-390.png, signal-desks-desktop.png, signal-controls-desktop.png.
+Artwork: docket-signal-artwork.png; prompt and built-in ImageGen provenance in matchdocket-website/signal-artwork-notes.txt.

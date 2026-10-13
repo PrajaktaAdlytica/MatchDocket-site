@@ -1,0 +1,90 @@
+MatchDocket Logo Research and Concept Handoff
+13 October 2026
+
+Selected website direction: option 2, Warm Ledger.
+Generation method: built-in Image Gen. These are raster concept presentations, not finalized vector logo assets.
+
+Research findings and primary sources
+
+1. Distinctiveness should arise from the product's own idea. Pentagram's Droit identity relates custom typography to transformation and decision systems; OpenView develops custom lettering into a monogram and a broader icon language. These case studies inform a method, not letterforms to copy.
+https://www.pentagram.com/work/droit
+https://www.pentagram.com/work/openview/story
+
+2. Simplify forms for digital use. Pentagram's Mastercard work discusses geometry and digital applications. The lesson for MatchDocket is to create a stable recognizable silhouette, not to reuse interlocking circles or the payment network's identity.
+https://www.pentagram.com/work/mastercard
+
+3. Define placement, clear space, contrast and appropriate positive/reversed variants. Mastercard's brand requirements provide a precise example of application rules. Its numeric dimensions, colors and restrictions are specific to Mastercard, not generic finance-logo standards.
+https://www.mastercard.com/brandcenter/us/en/brand-requirements/mastercard.html
+
+4. Treat icon and full logo as different assets. Stripe's account-branding documentation distinguishes square digital icons from non-square logos and their different invoice placements. This supports planning both a compact MatchDocket mark and horizontal wordmark; it does not establish a Stripe integration.
+https://docs.stripe.com/get-started/account/branding
+
+5. A browser favicon appears at very small size. MDN describes the common 16px favicon. Actual 16px and 32px tests are required after the selected mark is drawn in vector; the concept sheets only illustrate icon and lockup applications.
+https://developer.mozilla.org/en-US/docs/Glossary/Favicon
+
+The Perplexity research returned a Wise guideline URL, but direct verification redirected to a 404. No Wise-specific sizing or optical rules have been relied upon here.
+
+Design synthesis for MatchDocket
+
+- Pair a compact mark with readable editorial lettering.
+- Preserve the selected ivory and deep olive aesthetic.
+- Use matching, folios, docket indexing or initials as the concept vocabulary.
+- Avoid default consumer finance symbols and generic growth claims.
+- Keep brand marks simpler than the detailed document illustrations on the website.
+- Optical spacing, real-size legibility, consistent single-color geometry and reversed artwork need production refinement.
+- Color and a polished mark do not themselves establish security, reliability or trust.
+
+Concepts and recommendation
+
+01 Aligned Folios: two solid upright forms and a shared matching seam. Most directly connected to the dossier concept, although the silhouette can also read as an architectural form.
+02 Evidence Join: two opposing docket-edge forms around open negative space. More abstract; the revised version removes an unrequested slogan. The small/reverse depictions still need geometric normalization before production.
+03 Docket Monogram: editorial MD monogram paired with the full name. Recommended as the strongest fit for the selected website typography. The combined initials need optical adjustment at favicon scale.
+04 Matched Wordmark: restrained wordmark with related M icon. Quietest expression; the proposed distinctive letter details need stronger vector development to avoid a stock-font impression.
+
+Presentation labels and any provisional slogans are not part of an approved final logo. The full name remains MatchDocket.
+
+Next production pass after selection
+
+Draw the chosen geometry in editable vector, normalize all lockups, refine lettering and kerning, check originality/similarity, and test the mark at 16/32px plus the real website header size. Produce horizontal, icon-only, monochrome and reversed versions and an actual favicon. No trademark clearance is represented by this exploration.
+
+Exact generation prompts
+
+PROMPT 1
+Use case: logo-brand. Create an original logo concept presentation for MatchDocket, a proposed B2B AP invoice exception review SaaS for controllers and AP managers, not a bank, payment network or consumer budgeting service. This is a flat, carefully typeset brand identity study, not a product UI or artwork texture.
+The attached image is the selected "Warm Ledger" WEBSITE STYLE REFERENCE ONLY. Keep its premium warm-ivory and deep-olive editorial character, but create a substantially better original logo. Do not copy its placeholder document icon or turn its hero illustrations into a complex logo.
+Canvas approx 1536 x 1024, landscape. Art direction: ivory #F7F4ED, olive #26382D, tiny optional muted brass #B59A59 accent. No gradients, photography, 3D, embossing, drop shadows, sketch texture, props, paper mockups or scenes. Flat crisply edged vector-like shapes suitable for eventual vector refinement. Serious contemporary fintech editorial quality. No coins, currency signs, arrows, scales, bank buildings, shields, checkmarks, leaf sprigs, crowns, sparkles or Mastercard circles.
+Main upper half: beautifully spaced horizontal symbol + EXACT wordmark "MatchDocket", one word with capital M and D. Elegant custom editorial serif with moderate stroke contrast, sturdy readable thin strokes, bespoke restrained details and optical kerning. Do not use a hairline Didone or archaic legal calligraphy.
+Bottom: large icon-only olive mark on ivory and same mark reversed ivory on olive, plus a restrained small navbar-size horizontal lockup. These are applications of ONE IDENTICAL mark, never alternate symbols. Clearly label "Concept study"; small label naming the concept. Demonstrate structure and single-color versatility rather than decoration. Do not claim trademark clearance or finalized SVG. Spacious polished composition. No meaningless grid construction or pseudo-measurement annotations.
+Concept name "Aligned Folios". Design a memorable minimal symbol from TWO sturdy offset upright folio silhouettes with a shared precise matching seam. The negative space suggests a compact M without explicitly drawing a generic M. Two unequal top tabs make a distinctive silhouette; the folios' aligned lower edges express evidence reconciled. It is NOT an open book, folder with paperlines, duplicate rounded rectangles, a shield or a tick. Maximum three simple masses, no fine internal invoice lines. The icon must be identifiable in a single color with broad open negative space. Pair it with the custom serif MatchDocket wordmark. Intended character: warm, orderly, accountable. Keep it highly original.
+
+
+PROMPT 2
+Use case: logo-brand. Create an original logo concept presentation for MatchDocket, a proposed B2B AP invoice exception review SaaS for controllers and AP managers, not a bank, payment network or consumer budgeting service. This is a flat, carefully typeset brand identity study, not a product UI or artwork texture.
+The attached image is the selected "Warm Ledger" WEBSITE STYLE REFERENCE ONLY. Keep its premium warm-ivory and deep-olive editorial character, but create a substantially better original logo. Do not copy its placeholder document icon or turn its hero illustrations into a complex logo.
+Canvas approx 1536 x 1024, landscape. Art direction: ivory #F7F4ED, olive #26382D, tiny optional muted brass #B59A59 accent. No gradients, photography, 3D, embossing, drop shadows, sketch texture, props, paper mockups or scenes. Flat crisply edged vector-like shapes suitable for eventual vector refinement. Serious contemporary fintech editorial quality. No coins, currency signs, arrows, scales, bank buildings, shields, checkmarks, leaf sprigs, crowns, sparkles or Mastercard circles.
+Main upper half: beautifully spaced horizontal symbol + EXACT wordmark "MatchDocket", one word with capital M and D. Elegant custom editorial serif with moderate stroke contrast, sturdy readable thin strokes, bespoke restrained details and optical kerning. Do not use a hairline Didone or archaic legal calligraphy.
+Bottom: large icon-only olive mark on ivory and same mark reversed ivory on olive, plus a restrained small navbar-size horizontal lockup. These are applications of ONE IDENTICAL mark, never alternate symbols. Clearly label "Concept study"; small label naming the concept. Demonstrate structure and single-color versatility rather than decoration. Do not claim trademark clearance or finalized SVG. Spacious polished composition. No meaningless grid construction or pseudo-measurement annotations.
+Concept name "Evidence Join". Design an abstract compact monogram-like mark with TWO opposing substantial right-angle forms that meet around a small OPEN negative-space center. The forms have subtle asymmetric docket-tab cuts and fit together like two evidence references aligning. The silhouette should feel like a bespoke MD-related join but NOT resemble a link chain, Mastercard circles, generic bracket icon, Celtic knot or equal sign. Use two bold geometric solids with a clear central white gap; stable upright proportions; one color only. Pair with elegant custom serif MatchDocket wordmark. Intended character: clarity, deliberate matching, precision. Distinct from a paper/folio silhouette.
+
+
+PROMPT 3
+Use case: logo-brand. Create an original logo concept presentation for MatchDocket, a proposed B2B AP invoice exception review SaaS for controllers and AP managers, not a bank, payment network or consumer budgeting service. This is a flat, carefully typeset brand identity study, not a product UI or artwork texture.
+The attached image is the selected "Warm Ledger" WEBSITE STYLE REFERENCE ONLY. Keep its premium warm-ivory and deep-olive editorial character, but create a substantially better original logo. Do not copy its placeholder document icon or turn its hero illustrations into a complex logo.
+Canvas approx 1536 x 1024, landscape. Art direction: ivory #F7F4ED, olive #26382D, tiny optional muted brass #B59A59 accent. No gradients, photography, 3D, embossing, drop shadows, sketch texture, props, paper mockups or scenes. Flat crisply edged vector-like shapes suitable for eventual vector refinement. Serious contemporary fintech editorial quality. No coins, currency signs, arrows, scales, bank buildings, shields, checkmarks, leaf sprigs, crowns, sparkles or Mastercard circles.
+Main upper half: beautifully spaced horizontal symbol + EXACT wordmark "MatchDocket", one word with capital M and D. Elegant custom editorial serif with moderate stroke contrast, sturdy readable thin strokes, bespoke restrained details and optical kerning. Do not use a hairline Didone or archaic legal calligraphy.
+Bottom: large icon-only olive mark on ivory and same mark reversed ivory on olive, plus a restrained small navbar-size horizontal lockup. These are applications of ONE IDENTICAL mark, never alternate symbols. Clearly label "Concept study"; small label naming the concept. Demonstrate structure and single-color versatility rather than decoration. Do not claim trademark clearance or finalized SVG. Spacious polished composition. No meaningless grid construction or pseudo-measurement annotations.
+Concept name "Docket Monogram". Create an exceptionally refined bespoke typographic MD monogram: M and D share ONE confident vertical stem, with the D's open rounded bowl framing the M's inset diagonal. It must read as a compact intentionally drawn character, not separate overlapping letters, generic stock font initials or a bank crest. Strong restrained editorial serifs with gently softened internal corners. No containing circle, square, shield or ornamental border. One color dark olive, ample counters and simple silhouette; symbol should work independently. Pair with an elegant custom serif MatchDocket wordmark whose M/D letter construction relates to the symbol. Intended character: established editorial craft with contemporary software utility.
+
+
+PROMPT 4
+Use case: logo-brand. Create an original logo concept presentation for MatchDocket, a proposed B2B AP invoice exception review SaaS for controllers and AP managers, not a bank, payment network or consumer budgeting service. This is a flat, carefully typeset brand identity study, not a product UI or artwork texture.
+The attached image is the selected "Warm Ledger" WEBSITE STYLE REFERENCE ONLY. Keep its premium warm-ivory and deep-olive editorial character, but create a substantially better original logo. Do not copy its placeholder document icon or turn its hero illustrations into a complex logo.
+Canvas approx 1536 x 1024, landscape. Art direction: ivory #F7F4ED, olive #26382D, tiny optional muted brass #B59A59 accent. No gradients, photography, 3D, embossing, drop shadows, sketch texture, props, paper mockups or scenes. Flat crisply edged vector-like shapes suitable for eventual vector refinement. Serious contemporary fintech editorial quality. No coins, currency signs, arrows, scales, bank buildings, shields, checkmarks, leaf sprigs, crowns, sparkles or Mastercard circles.
+Main upper half: beautifully spaced horizontal symbol + EXACT wordmark "MatchDocket", one word with capital M and D. Elegant custom editorial serif with moderate stroke contrast, sturdy readable thin strokes, bespoke restrained details and optical kerning. Do not use a hairline Didone or archaic legal calligraphy.
+Bottom: large icon-only olive mark on ivory and same mark reversed ivory on olive, plus a restrained small navbar-size horizontal lockup. These are applications of ONE IDENTICAL mark, never alternate symbols. Clearly label "Concept study"; small label naming the concept. Demonstrate structure and single-color versatility rather than decoration. Do not claim trademark clearance or finalized SVG. Spacious polished composition. No meaningless grid construction or pseudo-measurement annotations.
+Concept name "Matched Wordmark". A typography-led logo with an ORIGINAL extended editorial serif MatchDocket wordmark. Draw a subtle distinctive matching detail between the terminal of the lowercase h and the capital D, visually aligning them with a precise shared horizontal datum WITHOUT connecting or obscuring the letters. Subtly square the D's upper-left serif like a docket tab. Main lockup is WORDMARK ONLY, no icon sitting to the left. Develop a standalone compact bespoke M favicon from the same letter construction, with a small broad tab-cut at its upper-right; show this M icon-only below in olive and reversed. Do not claim the full word fits in a favicon. Refined moderate-contrast serif, confident quiet sophistication, exceptional kerning. No underline, decorative swoosh, flourish, lettering ligature that changes spelling or fake coin/stamp effect. Intent: most restrained and editorial of the four options.
+Do not add any tagline or slogan. Only the exact wordmark and descriptive study labels.
+
+EVIDENCE JOIN REFINEMENT PROMPT
+Edit this MatchDocket "Evidence Join" logo presentation. Preserve the exact elegant dark-olive MatchDocket wordmark, ivory background, sheet layout, labels and single-color/reversed presentation. Make ONLY two corrections: (1) DELETE the line "INVOICE EXCEPTIONS. RESOLVED." entirely, leaving clean whitespace. (2) Refine the symbol in EVERY occurrence identically so its center no longer resembles a plus or medical cross. Two opposing sturdy L-shaped docket forms should fit around a broad OPEN RECTANGULAR center, slightly horizontally elongated, with an asymmetric tab offset at upper left and lower right. Use simple substantial olive solids, NOT a square border, chain link, medical cross, checkmark, arrow or shield. The center must have NO central vertical protrusion, NO small cross silhouette, and NO narrow stepped cruciform cutout. At a glance this should suggest two matched brackets/document edges with a distinctive compact asymmetric silhouette. Keep all instances of the edited symbol geometrically consistent, including the reverse ivory-on-olive sample and navbar example. Flat crisp vector-like concept art, no added elements, gradients, effects, slogan or trademark symbol. One single revised concept presentation.
+

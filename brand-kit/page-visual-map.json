@@ -1,0 +1,394 @@
+{
+  "version": "1.0.0",
+  "brand": "MatchDocket",
+  "selected_direction": "Warm Ledger",
+  "selected_symbol": "Record Clasp",
+  "research_stage": true,
+  "pages": [
+    {
+      "route": "/",
+      "page": "Home",
+      "hero": "Editorial dossier",
+      "illustration": "evidence-folio",
+      "primary_visual": "lineage",
+      "supporting_visual": "variance",
+      "cta": "Request an exception audit"
+    },
+    {
+      "route": "/product",
+      "page": "Product overview",
+      "hero": "Evidence constellation",
+      "illustration": "evidence-folio",
+      "primary_visual": "lineage",
+      "supporting_visual": "workflow",
+      "cta": "Explore fictional demo"
+    },
+    {
+      "route": "/product/invoice-intake",
+      "page": "Invoice Intake",
+      "hero": "Inbox spread",
+      "illustration": null,
+      "primary_visual": "duplicate",
+      "supporting_visual": "bars",
+      "cta": "Discuss intake pilot"
+    },
+    {
+      "route": "/product/variance-review",
+      "page": "Variance Review",
+      "hero": "Redlined comparison",
+      "illustration": null,
+      "primary_visual": "compare",
+      "supporting_visual": "waterfall",
+      "cta": "Explore the $600 variance"
+    },
+    {
+      "route": "/product/vendor-verification",
+      "page": "Vendor Verification",
+      "hero": "Control notice",
+      "illustration": "review-folio",
+      "primary_visual": "bank",
+      "supporting_visual": "approvals",
+      "cta": "Review verification controls"
+    },
+    {
+      "route": "/product/coding-approvals",
+      "page": "Coding & Approvals",
+      "hero": "Two-role handoff",
+      "illustration": null,
+      "primary_visual": "approvals",
+      "supporting_visual": "diff",
+      "cta": "Discuss coding pilot"
+    },
+    {
+      "route": "/product/pay-run-readiness",
+      "page": "Pay-run Readiness",
+      "hero": "Packet spread",
+      "illustration": "review-folio",
+      "primary_visual": "packet",
+      "supporting_visual": "diff",
+      "cta": "Inspect sample packet"
+    },
+    {
+      "route": "/who-its-for",
+      "page": "Buyer/context index",
+      "hero": "Three operational stories",
+      "illustration": "receiving-records",
+      "primary_visual": "lineage",
+      "supporting_visual": "compare",
+      "cta": "Find your workflow"
+    },
+    {
+      "route": "/who-its-for/manufacturers",
+      "page": "Manufacturers",
+      "hero": "Industrial still life",
+      "illustration": "receiving-records",
+      "primary_visual": "compare",
+      "supporting_visual": "waterfall",
+      "cta": "Discuss receiving exceptions"
+    },
+    {
+      "route": "/who-its-for/distributors",
+      "page": "Distributors",
+      "hero": "Split-receipt lanes",
+      "illustration": "receiving-records",
+      "primary_visual": "lineage",
+      "supporting_visual": "compare",
+      "cta": "Discuss receipt evidence"
+    },
+    {
+      "route": "/who-its-for/finance-teams",
+      "page": "Controllers & AP",
+      "hero": "Editorial authority",
+      "illustration": "review-folio",
+      "primary_visual": "approvals",
+      "supporting_visual": "workflow",
+      "cta": "Request an audit"
+    },
+    {
+      "route": "/erp-data-fit",
+      "page": "ERP & data fit",
+      "hero": "Read-only data path",
+      "illustration": null,
+      "primary_visual": "workflow",
+      "supporting_visual": "diff",
+      "cta": "Discuss safe sample preparation"
+    },
+    {
+      "route": "/controls",
+      "page": "Controls",
+      "hero": "Inverse permission matrix",
+      "illustration": null,
+      "primary_visual": "bank",
+      "supporting_visual": "approvals",
+      "cta": "Review pilot boundaries"
+    },
+    {
+      "route": "/pilot",
+      "page": "Pilot & hypothetical pricing",
+      "hero": "Bounded scope",
+      "illustration": null,
+      "primary_visual": "packet",
+      "supporting_visual": "bullet",
+      "cta": "Request a scoped pilot"
+    },
+    {
+      "route": "/demo",
+      "page": "Demo queue",
+      "hero": "Workbench entry",
+      "illustration": null,
+      "primary_visual": "donut",
+      "supporting_visual": "bars",
+      "cta": "Open AP-0418"
+    },
+    {
+      "route": "/demo/cases/AP-0418",
+      "page": "Opened case",
+      "hero": "Evidence workbench",
+      "illustration": null,
+      "primary_visual": "compare",
+      "supporting_visual": "waterfall",
+      "cta": "Inspect proposal"
+    },
+    {
+      "route": "/demo/report",
+      "page": "Review packet",
+      "hero": "Held-but-exportable report",
+      "illustration": null,
+      "primary_visual": "diff",
+      "supporting_visual": "packet",
+      "cta": "Export synthetic packet"
+    },
+    {
+      "route": "/request-audit",
+      "page": "Audit intake",
+      "hero": "Focused split form",
+      "illustration": "review-folio",
+      "primary_visual": "workflow",
+      "supporting_visual": "approvals",
+      "cta": "Submit consented inquiry when operational"
+    },
+    {
+      "route": "/research",
+      "page": "Research hub",
+      "hero": "Reading column",
+      "illustration": null,
+      "primary_visual": "workflow",
+      "supporting_visual": "lineage",
+      "cta": "Read validation method"
+    },
+    {
+      "route": "/research/sample-preparation",
+      "page": "Sample preparation",
+      "hero": "Annotated source checklist",
+      "illustration": null,
+      "primary_visual": "lineage",
+      "supporting_visual": "diff",
+      "cta": "Discuss permissioned CSV sample"
+    },
+    {
+      "route": "/research/validation-method",
+      "page": "Validation method",
+      "hero": "Blank scorecard",
+      "illustration": null,
+      "primary_visual": "workflow",
+      "supporting_visual": "diff",
+      "cta": "Review agreed pilot gates"
+    },
+    {
+      "route": "/research/faq",
+      "page": "FAQ",
+      "hero": "Reading column",
+      "illustration": null,
+      "primary_visual": null,
+      "supporting_visual": null,
+      "cta": "Request a walkthrough"
+    },
+    {
+      "route": "/partners",
+      "page": "ERP / controller partners",
+      "hero": "Folio editorial",
+      "illustration": "review-folio",
+      "primary_visual": "workflow",
+      "supporting_visual": "lineage",
+      "cta": "Partner inquiry"
+    },
+    {
+      "route": "/about",
+      "page": "About",
+      "hero": "Folio editorial",
+      "illustration": "review-folio",
+      "primary_visual": "packet",
+      "supporting_visual": "approvals",
+      "cta": "Learn about the research"
+    },
+    {
+      "route": "/contact",
+      "page": "Contact",
+      "hero": "Focused split form",
+      "illustration": "review-folio",
+      "primary_visual": null,
+      "supporting_visual": null,
+      "cta": "General / partner / privacy inquiry"
+    },
+    {
+      "route": "/sign-in",
+      "page": "Preview sign-in",
+      "hero": "Compact workspace",
+      "illustration": null,
+      "primary_visual": "lineage",
+      "supporting_visual": "workflow",
+      "cta": "Enter synthetic workspace"
+    },
+    {
+      "route": "/privacy",
+      "page": "Privacy",
+      "hero": "Reading column",
+      "illustration": null,
+      "primary_visual": null,
+      "supporting_visual": null,
+      "cta": "Operational deletion route"
+    },
+    {
+      "route": "/terms",
+      "page": "Terms",
+      "hero": "Reading column",
+      "illustration": null,
+      "primary_visual": null,
+      "supporting_visual": null,
+      "cta": "Site limitations and counsel review"
+    },
+    {
+      "route": "/accessibility",
+      "page": "Accessibility",
+      "hero": "Reading column",
+      "illustration": null,
+      "primary_visual": null,
+      "supporting_visual": null,
+      "cta": "Accessibility contact"
+    }
+  ],
+  "homepage_sections": [
+    {
+      "section": "Hero",
+      "composition": "Editorial split / 50-50",
+      "visual": "evidence-folio + lineage",
+      "motion": "CTA text flip; no automatic decision"
+    },
+    {
+      "section": "Buyer qualifier",
+      "composition": "Ruled question",
+      "visual": "30-invoice scope question, no benchmark"
+    },
+    {
+      "section": "Source example",
+      "composition": "Annotated source spread",
+      "visual": "compare + waterfall",
+      "data": "INV-418 / PO-772 / GR-09"
+    },
+    {
+      "section": "Five offers",
+      "composition": "3+2 panels or five numbered editorial rows",
+      "visual": [
+        "duplicate",
+        "compare",
+        "bank",
+        "approvals",
+        "packet"
+      ],
+      "motion": "one assigned effect per card, not all effects at once"
+    },
+    {
+      "section": "Reviewed workflow",
+      "composition": "Source \u2192 human \u2192 packet",
+      "visual": "workflow",
+      "motion": "optional step focus, static fallback"
+    },
+    {
+      "section": "Demo entry",
+      "composition": "Full opened case crop",
+      "visual": "case workbench",
+      "motion": "explicit source/tab selection"
+    },
+    {
+      "section": "Use cases",
+      "composition": "Alternating industrial/context split",
+      "visual": "receiving-records + lineage"
+    },
+    {
+      "section": "Data fit",
+      "composition": "Read-only input/output rail",
+      "visual": "workflow + diff"
+    },
+    {
+      "section": "Controls",
+      "composition": "Inverse olive panel",
+      "visual": "bank + approvals",
+      "motion": "none on essential controls"
+    },
+    {
+      "section": "Validation",
+      "composition": "Blank comparative scorecard",
+      "visual": "baseline / reviewed outcome table",
+      "limits": "Never populate fake accuracy or savings"
+    },
+    {
+      "section": "Pilot pricing",
+      "composition": "Bounded engagement block",
+      "visual": "scope checklist",
+      "pricing": "$2,500 audit; $1,500\u2013$4,000 per entity/month hypotheses only"
+    },
+    {
+      "section": "FAQ / consent",
+      "composition": "Reading column and purpose-limited form",
+      "visual": "native details and labeled controls"
+    },
+    {
+      "section": "Final CTA / footer",
+      "composition": "Single question and complete footer",
+      "visual": "Record Clasp + social brand icons",
+      "motion": "rising fill or flip-label, not both"
+    }
+  ],
+  "component_assignment": {
+    "offer1": "duplicate / border trace",
+    "offer2": "compare and waterfall / shutter",
+    "offer3": "bank / corner registration",
+    "offer4": "approvals / underline",
+    "offer5": "packet and diff / paper lift"
+  },
+  "mobile": "4 columns, 20px gutters, stack evidence before review; all source facts and controls visible",
+  "prohibited_claims": [
+    "Operating product",
+    "Live connectors",
+    "Customers/testimonials",
+    "Certifications",
+    "Savings/ROI",
+    "Autonomous bank updates",
+    "Payment authorization",
+    "Confirmed market pricing"
+  ],
+  "offer_contracts": [
+    {
+      "id": 1,
+      "intent": "Invoice intake and duplicate/identity triage"
+    },
+    {
+      "id": 2,
+      "intent": "PO\u2013receipt\u2013invoice variance desk with evidence requests"
+    },
+    {
+      "id": 3,
+      "intent": "Vendor tax/bank-change verification queue",
+      "tax_visual": "Document-status checklist; pending human review, no determination",
+      "bank_visual": "Hard hold + independent callback; no bank edits"
+    },
+    {
+      "id": 4,
+      "intent": "GL coding and approval-path proposal with approver sign-off"
+    },
+    {
+      "id": 5,
+      "intent": "Pay-run readiness packet and ERP reconciliation export; separate workflow/entity scope subject to measured volume"
+    }
+  ]
+}

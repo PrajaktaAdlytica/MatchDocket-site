@@ -1,0 +1,591 @@
+{
+  "brand": "MatchDocket",
+  "version": "1.0.0",
+  "assets": [
+    {
+      "path": "assets/D3-LICENSE.txt",
+      "bytes": 731,
+      "source": "D3 v7.9.0 / ISC"
+    },
+    {
+      "path": "assets/d3.min.js",
+      "bytes": 279706,
+      "source": "D3 v7.9.0 / ISC"
+    },
+    {
+      "path": "assets/figures/approvals.svg",
+      "bytes": 1477,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/area.svg",
+      "bytes": 2254,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/bank.svg",
+      "bytes": 1633,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/bars.svg",
+      "bytes": 2445,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/bullet.svg",
+      "bytes": 1542,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/columns.svg",
+      "bytes": 1977,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/compare.svg",
+      "bytes": 1683,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/diff.svg",
+      "bytes": 1678,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/donut.svg",
+      "bytes": 1779,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/dotplot.svg",
+      "bytes": 2297,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/duplicate.svg",
+      "bytes": 1683,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/heatmap.svg",
+      "bytes": 4957,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/line.svg",
+      "bytes": 2077,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/lineage.svg",
+      "bytes": 2172,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/lollipop.svg",
+      "bytes": 2680,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/packet.svg",
+      "bytes": 1544,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/pie.svg",
+      "bytes": 1171,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/sparkline.svg",
+      "bytes": 1698,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/waterfall.svg",
+      "bytes": 3216,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/figures/workflow.svg",
+      "bytes": 2162,
+      "source": "MatchDocket D3/SVG from synthetic data; editable vector"
+    },
+    {
+      "path": "assets/fonts/Manrope-OFL.txt",
+      "bytes": 4387,
+      "source": "Google Fonts / OFL"
+    },
+    {
+      "path": "assets/fonts/Manrope-variable.ttf",
+      "bytes": 164700,
+      "source": "Google Fonts / OFL"
+    },
+    {
+      "path": "assets/fonts/Manrope-variable.woff2",
+      "bytes": 53844,
+      "source": "Google Fonts / OFL"
+    },
+    {
+      "path": "assets/fonts/Newsreader-OFL.txt",
+      "bytes": 4394,
+      "source": "Google Fonts / OFL"
+    },
+    {
+      "path": "assets/fonts/Newsreader-italic-variable.ttf",
+      "bytes": 495684,
+      "source": "Google Fonts / OFL"
+    },
+    {
+      "path": "assets/fonts/Newsreader-italic-variable.woff2",
+      "bytes": 239300,
+      "source": "Google Fonts / OFL"
+    },
+    {
+      "path": "assets/fonts/Newsreader-variable.ttf",
+      "bytes": 451664,
+      "source": "Google Fonts / OFL"
+    },
+    {
+      "path": "assets/fonts/Newsreader-variable.woff2",
+      "bytes": 214404,
+      "source": "Google Fonts / OFL"
+    },
+    {
+      "path": "assets/icons/LUCIDE-LICENSE.txt",
+      "bytes": 3208,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/SIMPLE-ICONS-LICENSE.txt",
+      "bytes": 6568,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/arrow-left.svg",
+      "bytes": 262,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/arrow-right.svg",
+      "bytes": 261,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/arrow-up-right.svg",
+      "bytes": 260,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/ban.svg",
+      "bytes": 285,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/building-2.svg",
+      "bytes": 553,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/calendar-days.svg",
+      "bytes": 483,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/chart-no-axes-column.svg",
+      "bytes": 280,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/chart-pie.svg",
+      "bytes": 371,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/check.svg",
+      "bytes": 239,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/chevron-down.svg",
+      "bytes": 236,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/chevron-right.svg",
+      "bytes": 237,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/circle-alert.svg",
+      "bytes": 332,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/circle-check.svg",
+      "bytes": 278,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/circle-help.svg",
+      "bytes": 405,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/circle-x.svg",
+      "bytes": 293,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/clipboard-list.svg",
+      "bytes": 452,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/copy.svg",
+      "bytes": 339,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/crunchbase.svg",
+      "bytes": 537,
+      "source": "Simple Icons brand mark"
+    },
+    {
+      "path": "assets/icons/download.svg",
+      "bytes": 318,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/external-link.svg",
+      "bytes": 332,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/eye.svg",
+      "bytes": 360,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/file-spreadsheet.svg",
+      "bytes": 467,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/file-text.svg",
+      "bytes": 444,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/files.svg",
+      "bytes": 444,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/filter.svg",
+      "bytes": 353,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/folder-open.svg",
+      "bytes": 401,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/git-compare-arrows.svg",
+      "bytes": 413,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/hash.svg",
+      "bytes": 373,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/history.svg",
+      "bytes": 403,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/keyboard.svg",
+      "bytes": 461,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/layers.svg",
+      "bytes": 510,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/linkedin.svg",
+      "bytes": 610,
+      "source": "Simple Icons brand mark"
+    },
+    {
+      "path": "assets/icons/list-checks.svg",
+      "bytes": 336,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/lock-keyhole.svg",
+      "bytes": 337,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/mail.svg",
+      "bytes": 316,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/menu.svg",
+      "bytes": 279,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/moon.svg",
+      "bytes": 334,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/panel-left-close.svg",
+      "bytes": 314,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/pause.svg",
+      "bytes": 313,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/phone.svg",
+      "bytes": 437,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/play.svg",
+      "bytes": 306,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/receipt.svg",
+      "bytes": 741,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/rotate-ccw.svg",
+      "bytes": 297,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/route.svg",
+      "bytes": 344,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/scan-line.svg",
+      "bytes": 390,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/search.svg",
+      "bytes": 275,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/settings-2.svg",
+      "bytes": 324,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/shield-alert.svg",
+      "bytes": 435,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/sliders-horizontal.svg",
+      "bytes": 422,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/sun.svg",
+      "bytes": 485,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/upload.svg",
+      "bytes": 318,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/icons/x.svg",
+      "bytes": 260,
+      "source": "Lucide"
+    },
+    {
+      "path": "assets/illustrations/evidence-folio.png",
+      "bytes": 2332887,
+      "source": "Original built-in Image Gen; see exact prompts"
+    },
+    {
+      "path": "assets/illustrations/receiving-records.png",
+      "bytes": 1905130,
+      "source": "Original built-in Image Gen; see exact prompts"
+    },
+    {
+      "path": "assets/illustrations/review-folio.png",
+      "bytes": 2037486,
+      "source": "Original built-in Image Gen; see exact prompts"
+    },
+    {
+      "path": "assets/logo/favicon-black.svg",
+      "bytes": 325,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/favicon-ivory-16.png",
+      "bytes": 371,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/favicon-ivory-180.png",
+      "bytes": 3258,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/favicon-ivory-32.png",
+      "bytes": 621,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/favicon-ivory-48.png",
+      "bytes": 864,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/favicon-ivory-512.png",
+      "bytes": 13558,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/favicon-ivory.svg",
+      "bytes": 325,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/favicon-olive-16.png",
+      "bytes": 373,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/favicon-olive-180.png",
+      "bytes": 3254,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/favicon-olive-32.png",
+      "bytes": 624,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/favicon-olive-48.png",
+      "bytes": 869,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/favicon-olive-512.png",
+      "bytes": 13576,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/favicon-olive.svg",
+      "bytes": 325,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/favicon-white.svg",
+      "bytes": 325,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/logo-black.png",
+      "bytes": 19721,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/logo-black.svg",
+      "bytes": 19921,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/logo-ivory.png",
+      "bytes": 24603,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/logo-ivory.svg",
+      "bytes": 19921,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/logo-olive.png",
+      "bytes": 24566,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/logo-olive.svg",
+      "bytes": 19921,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/logo-white.png",
+      "bytes": 20174,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/logo-white.svg",
+      "bytes": 19921,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/mark-black.svg",
+      "bytes": 296,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/mark-ivory.svg",
+      "bytes": 296,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/mark-olive.svg",
+      "bytes": 296,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/mark-white.svg",
+      "bytes": 296,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/wordmark-black.svg",
+      "bytes": 19634,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/wordmark-ivory.svg",
+      "bytes": 19634,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/wordmark-olive.svg",
+      "bytes": 19634,
+      "source": "MatchDocket original"
+    },
+    {
+      "path": "assets/logo/wordmark-white.svg",
+      "bytes": 19634,
+      "source": "MatchDocket original"
+    }
+  ]
+}

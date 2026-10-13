@@ -6,6 +6,14 @@ Run:
   npm ci
   npm run dev
 
+Repository handoff:
+  - brand-kit/ contains the editable MatchDocket tokens, components, icons, figures, fonts and guide.
+  - intro-animation/ contains the editable Remotion Canyon intro composition and local assets.
+  - design-references/ contains the selected logo and intro visual directions.
+  - public/brand/ contains the production logo, favicon, texture, font, icon and figure assets used by the site.
+
+The homepage intro is embedded as a responsive native Remotion Player composition. It fills the viewport, includes pause/replay/skip controls, scrolls to the hero after completion, and can be replayed by scrolling back up. The final still remains available for reduced-motion preferences.
+
 Production:
   npm run build
   npm run check

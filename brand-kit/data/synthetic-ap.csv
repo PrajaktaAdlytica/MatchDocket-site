@@ -1,0 +1,11 @@
+id,vendor,amount,state,offer,owner,age,received_date,entity,currency,synthetic
+AP-0418,Cedar Components,10400,variance,2,Maya Chen,1,2026-10-12,NF-01,USD,True
+AP-0419,Alder Fasteners,4800,blocked,3,Omar Bell,3,2026-10-10,NF-01,USD,True
+AP-0420,Birch Packaging,1250,evidence,1,Maya Chen,3,2026-10-10,NF-01,USD,True
+AP-0421,Larch Maintenance,3200,rejected,1,Elena Park,4,2026-10-09,NF-01,USD,True
+AP-0422,Maple Industrial,2100,received,4,Maya Chen,1,2026-10-12,NF-01,USD,True
+AP-0423,Willow Freight,750,variance,2,Sam Ortiz,2,2026-10-11,NF-01,USD,True
+AP-0424,Elm Metals,6000,reviewed,4,Elena Park,3,2026-10-10,NF-01,USD,True
+AP-0425,Spruce Safety,1800,packet,5,Elena Park,2,2026-10-11,NF-01,USD,True
+AP-0426,Ash Labels,900,packet,5,Elena Park,1,2026-10-12,NF-01,USD,True
+AP-0427,Pine Supplies,400,received,1,Maya Chen,1,2026-10-12,NF-01,USD,True

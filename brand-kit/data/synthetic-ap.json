@@ -1,0 +1,191 @@
+{
+  "scenario_date": "2026-10-13",
+  "timezone": "UTC",
+  "entity": "Northforge Tools",
+  "cases": [
+    {
+      "id": "AP-0418",
+      "vendor": "Cedar Components",
+      "amount": 10400,
+      "state": "variance",
+      "offer": 2,
+      "owner": "Maya Chen",
+      "age": 1,
+      "received_date": "2026-10-12",
+      "entity": "NF-01",
+      "currency": "USD",
+      "synthetic": true
+    },
+    {
+      "id": "AP-0419",
+      "vendor": "Alder Fasteners",
+      "amount": 4800,
+      "state": "blocked",
+      "offer": 3,
+      "owner": "Omar Bell",
+      "age": 3,
+      "received_date": "2026-10-10",
+      "entity": "NF-01",
+      "currency": "USD",
+      "synthetic": true
+    },
+    {
+      "id": "AP-0420",
+      "vendor": "Birch Packaging",
+      "amount": 1250,
+      "state": "evidence",
+      "offer": 1,
+      "owner": "Maya Chen",
+      "age": 3,
+      "received_date": "2026-10-10",
+      "entity": "NF-01",
+      "currency": "USD",
+      "synthetic": true
+    },
+    {
+      "id": "AP-0421",
+      "vendor": "Larch Maintenance",
+      "amount": 3200,
+      "state": "rejected",
+      "offer": 1,
+      "owner": "Elena Park",
+      "age": 4,
+      "received_date": "2026-10-09",
+      "entity": "NF-01",
+      "currency": "USD",
+      "synthetic": true
+    },
+    {
+      "id": "AP-0422",
+      "vendor": "Maple Industrial",
+      "amount": 2100,
+      "state": "received",
+      "offer": 4,
+      "owner": "Maya Chen",
+      "age": 1,
+      "received_date": "2026-10-12",
+      "entity": "NF-01",
+      "currency": "USD",
+      "synthetic": true
+    },
+    {
+      "id": "AP-0423",
+      "vendor": "Willow Freight",
+      "amount": 750,
+      "state": "variance",
+      "offer": 2,
+      "owner": "Sam Ortiz",
+      "age": 2,
+      "received_date": "2026-10-11",
+      "entity": "NF-01",
+      "currency": "USD",
+      "synthetic": true
+    },
+    {
+      "id": "AP-0424",
+      "vendor": "Elm Metals",
+      "amount": 6000,
+      "state": "reviewed",
+      "offer": 4,
+      "owner": "Elena Park",
+      "age": 3,
+      "received_date": "2026-10-10",
+      "entity": "NF-01",
+      "currency": "USD",
+      "synthetic": true
+    },
+    {
+      "id": "AP-0425",
+      "vendor": "Spruce Safety",
+      "amount": 1800,
+      "state": "packet",
+      "offer": 5,
+      "owner": "Elena Park",
+      "age": 2,
+      "received_date": "2026-10-11",
+      "entity": "NF-01",
+      "currency": "USD",
+      "synthetic": true
+    },
+    {
+      "id": "AP-0426",
+      "vendor": "Ash Labels",
+      "amount": 900,
+      "state": "packet",
+      "offer": 5,
+      "owner": "Elena Park",
+      "age": 1,
+      "received_date": "2026-10-12",
+      "entity": "NF-01",
+      "currency": "USD",
+      "synthetic": true
+    },
+    {
+      "id": "AP-0427",
+      "vendor": "Pine Supplies",
+      "amount": 400,
+      "state": "received",
+      "offer": 1,
+      "owner": "Maya Chen",
+      "age": 1,
+      "received_date": "2026-10-12",
+      "entity": "NF-01",
+      "currency": "USD",
+      "synthetic": true
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-07",
+      "open": 0
+    },
+    {
+      "date": "2026-10-08",
+      "open": 0
+    },
+    {
+      "date": "2026-10-09",
+      "open": 1
+    },
+    {
+      "date": "2026-10-10",
+      "open": 4
+    },
+    {
+      "date": "2026-10-11",
+      "open": 6
+    },
+    {
+      "date": "2026-10-12",
+      "open": 10
+    },
+    {
+      "date": "2026-10-13",
+      "open": 10
+    }
+  ],
+  "case": {
+    "invoice": "INV-418",
+    "invoice_date": "2026-10-09",
+    "po": "PO-772",
+    "po_date": "2026-10-01",
+    "receipt": "GR-09",
+    "receipt_date": "2026-10-08",
+    "invoice_qty": 100,
+    "invoice_price": 104,
+    "po_qty": 100,
+    "po_price": 100,
+    "receipt_qty": 98,
+    "amount": 10400,
+    "supported": 9800,
+    "quantity_variance": 200,
+    "price_variance": 400,
+    "disputed": 600,
+    "payment_hold": true,
+    "erp_write": false,
+    "bank_write": false,
+    "policy": "POL-NF-01-v1",
+    "assumptions": "USD; no tax, freight, returns, prior allocations or unit conversion; zero tolerance; no partial-payment authorization."
+  },
+  "history_assumptions": "Cumulative queue records derived from received_date; no seeded case is archived during this illustrative window. No performance/ROI inference."
+}
