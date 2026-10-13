@@ -1,4 +1,4 @@
-MATCHDOCKET — WARM LEDGER WEBSITE
+MATCHDOCKET — DOCKET SIGNAL WEBSITE
 
 Responsive React website with 29 core pages and nine additional synthetic case detail routes (38 rendered routes). Native scroll narrative, distinct proposed-module figures, explicit review/override demo, accessibility and reduced-motion control. Selected Record Clasp logo, Newsreader + Manrope, and all brand assets are local.
 
@@ -11,7 +11,7 @@ Production:
   npm run check
   python3 -m http.server 5174 --bind 127.0.0.1 --directory dist
 
-Build emits readable HTML per route for discovery and direct navigation. The production static server resolves folder routes with a trailing slash; the client accepts both. Vercel configuration maps the clean addresses to their own page HTML. The generated canonical origin is the private Sites preview; change scripts/prerender.mjs to the verified custom origin before a public Vercel/domain launch.
+Build emits readable HTML per route for discovery and direct navigation. The production static server resolves folder routes with a trailing slash; the client accepts both. Vercel configuration maps the clean addresses to their own page HTML. The generated canonical origin is the public Sites preview; change scripts/prerender.mjs to the verified custom origin before a public Vercel/domain launch.
 
 Preview scope:
 - Research-stage concept, not an operating finance product.
@@ -31,3 +31,5 @@ Icons: Lucide and Simple Icons notices in public/brand/icons.
 Application packages: pinned versions in package-lock.json.
 
 QA: see qa-report.json. Screenshots: previews/.
+
+Visual correction: Docket Signal reference supplied on 13 October 2026. Burgundy #802E34, charcoal #232C27, paper #FCFBF8; condensed Teko display, Manrope UI, Newsreader thesis; scanned-paper collage, horizontal source chain, distinct module mini-graphics, before/after audit record. Approved Record Clasp symbol retained in burgundy. Original paper asset generated with the built-in ImageGen tool; see signal-artwork-notes.txt for prompt and provenance.

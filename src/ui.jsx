@@ -20,5 +20,5 @@ export const offers=[
  {id:2,slug:'variance-review',name:'Variance Review',icon:'git-compare-arrows',figure:'compare',desc:'Put the invoice, purchase order, and receipt side by side.',detail:'PO–receipt–invoice variance desk with evidence requests.',effect:'shutter'},
  {id:3,slug:'vendor-verification',name:'Vendor Verification',icon:'shield-alert',figure:'bank',desc:'Give sensitive vendor changes a separate verification queue.',detail:'Vendor tax/bank-change verification queue. Independent review; no bank edits.',effect:'corners'},
  {id:4,slug:'coding-approvals',name:'Coding & Approvals',icon:'route',figure:'approvals',desc:'Propose the coding. Make the approval path explicit.',detail:'GL coding and approval-path proposal, with approver sign-off.',effect:'rise'},
- {id:5,slug:'pay-run-readiness',name:'Pay-run Readiness',icon:'clipboard-list',figure:'packet',desc:'Carry decisions, evidence, and unresolved holds into one packet.',detail:'Pay-run readiness packet and ERP reconciliation export.',effect:'lift'}
+ {id:5,slug:'pay-run-readiness',name:'Pay-run Readiness',icon:'clipboard-list',figure:'packet',desc:'Prepare a readiness packet and proposed ERP reconciliation export.',detail:'Pay-run readiness packet and ERP reconciliation export.',effect:'lift'}
 ];

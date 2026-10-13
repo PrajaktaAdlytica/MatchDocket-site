@@ -1,21 +1,21 @@
 /* MatchDocket v1.0.0. Generated from tokens.json. */
 :root {
-  --primitive-paper: #F7F4ED;
+  --primitive-paper: #FAF9F6;
   --primitive-white: #FFFFFF;
-  --primitive-olive: #26382D;
-  --primitive-ink: #17271E;
-  --primitive-sage: #DDE5D6;
-  --primitive-brass: #B59A59;
-  --primitive-terra: #9B4638;
+  --primitive-olive: #802E34;
+  --primitive-ink: #202624;
+  --primitive-sage: #E8E9E6;
+  --primitive-brass: #9F8982;
+  --primitive-terra: #802E34;
   --primitive-amber: #805A1C;
-  --primitive-slate: #476575;
+  --primitive-slate: #4D5C64;
   --primitive-plum: #6C536A;
   --primitive-bark: #715B4A;
-  --primitive-leaf: #57705A;
-  --primitive-muted: #626D60;
-  --primitive-line: #D7DCCD;
-  --primitive-strongLine: #7B8675;
-  --primitive-holdWash: #F6EAE6;
+  --primitive-leaf: #59615D;
+  --primitive-muted: #69706B;
+  --primitive-line: #DDDFDC;
+  --primitive-strongLine: #8E9690;
+  --primitive-holdWash: #F7EAE9;
   --primitive-pendingWash: #F4EFDF;
   --primitive-sourceWash: #E9EFF1;
   --color-canvas: var(--primitive-paper);
@@ -59,7 +59,7 @@
   --shadow-paper: 0 2px 6px rgba(23,39,30,.04);
   --shadow-float: 0 10px 28px rgba(23,39,30,.09);
   --shadow-evidence: 0 20px 48px rgba(23,39,30,.12);
-  --shadow-focus: 0 0 0 4px #F6EAE6;
+  --shadow-focus: 0 0 0 4px #F7EAE9;
   --motion-fast: 140ms;
   --motion-standard: 240ms;
   --motion-reveal: 380ms;

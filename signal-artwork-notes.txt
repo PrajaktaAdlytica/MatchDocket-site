@@ -1,0 +1,9 @@
+DOCKET SIGNAL PAPER COLLAGE
+Built-in ImageGen tool, not fallback CLI.
+Saved original: ../docket-signal-artwork.png
+Runtime asset: public/brand/illustrations/signal-paper.webp
+
+Final prompt:
+Use case: product-mockup. Create a standalone editorial paper-collage asset for the RIGHT hero column of a premium accounts-payable website. Portrait composition, roughly 4:5. A large warm off-white scanned invoice sheet centrally, nearly upright with a slight 3-degree tilt, its central 75 percent empty and clean enough for HTML invoice information to be overlaid. Only a few faint thin ruled lines, NO words, NO numbers, NO logos anywhere on the main sheet. Behind it: one dark charcoal/brown mottled paper clipping and one light fibrous ledger-paper sheet. Along bottom foreground: a short folded torn receipt fragment with tiny illegible letterpress texture, no readable financial data. Authentic paper fibers, subtle photocopier grain, aged ivory/grey palette, photocopy/editorial collage, flat photographic scanner lighting, realistic torn and folded edges. Refined art direction, restrained and human composed. No 3D cards, no dashboard, no plant, no pen, no desk, no money, no gold coins, no green accents, no UI text. The entire collage isolated with genuine transparent background, no bounding background rectangle. The asset is texture and paper only; all invoice facts will be typeset as live website text.
+
+The record fields are original HTML. Arithmetic, dates, policy assumptions and control states follow the supplied brief rather than inconsistencies in the reference image.

@@ -1,6 +1,6 @@
 {
   "brand": "MatchDocket",
-  "direction": "Warm Ledger",
+  "direction": "Docket Signal",
   "logo": "Record Clasp",
   "date": "2026-10-13",
   "result": "passed",
@@ -34,8 +34,20 @@
   "limits": [
     "Forms prepare local drafts; no collection endpoint",
     "No production authentication, financial execution or live ERP connection",
-    "Private Sites preview; GitHub/Vercel/custom domain not connected",
+    "Public Sites preview; GitHub/Vercel/custom domain not connected",
     "Social profiles not published; icons do not invent links",
     "Native reduced-motion OS setting is supported in CSS; QA used the explicit site control"
-  ]
+  ],
+  "visual_reference": "User attachment ChatGPT Image 13 Oct 2026, 11_29_18.png",
+  "visual_correction": {
+    "condensed_headline": "Two deliberate lines",
+    "palette": "Burgundy, charcoal, paper",
+    "hero": "Scanned-paper editorial collage with live invoice fields",
+    "evidence": "Four source/review cards plus600USDhold",
+    "modules": "Five distinct HTML mini-graphics",
+    "controls": "Before/after record with audit trail",
+    "mobile": "Home and28othercore routes fit390px; zero overflow",
+    "runtime": "No browser runtime errors observed",
+    "regression": "Hold approval remains explicit and retains payment hold"
+  }
 }
