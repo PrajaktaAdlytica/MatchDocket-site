@@ -1,0 +1,21 @@
+{
+  "published_version": 3,
+  "comments_addressed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "viewports_checked": [
+    "1440x900",
+    "775x804",
+    "390x844"
+  ],
+  "overflow": false,
+  "missing_figure_icons": 0,
+  "flow_controls": "step selection verified",
+  "reduced_motion": "automatic replay disabled",
+  "build": "38 prerendered routes; source checks passed"
+}
