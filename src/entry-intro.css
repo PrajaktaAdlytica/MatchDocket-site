@@ -1,6 +1,6 @@
 .entry-intro{position:relative;isolation:isolate;min-height:480px;height:calc(100svh - 66px);background:#37281f;overflow:hidden;color:#fff9ef}
-.entry-intro-backdrop{position:absolute;z-index:-1;inset:-30px;background:linear-gradient(#37281f55,#37281f99),url('/brand/intro/poster.jpg') center/cover;filter:blur(24px)}
-.entry-intro-video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;display:block}
+.entry-intro-backdrop{position:absolute;z-index:-1;inset:0;background:url('/brand/intro/poster.jpg') center/cover}
+.entry-intro-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .entry-intro-controls{position:absolute;bottom:16px;left:24px;right:24px;display:flex;justify-content:space-between;gap:20px;align-items:center;font:500 11px/1.4 Manrope,Arial,sans-serif}
 .entry-intro-caption{font:10px/1.5 ui-monospace,monospace;letter-spacing:.14em;display:flex;align-items:center;gap:12px;text-shadow:0 1px 5px #251509}
 .entry-intro-caption i{display:block;width:24px;height:1px;background:#fff9ef66}

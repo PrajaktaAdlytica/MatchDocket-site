@@ -5,8 +5,12 @@ import './entry-intro.css';
 
 export default function EntryIntro(){
  const section=useRef(null),film=useRef(null),visible=useRef(false),armed=useRef(true),reduced=useRef(false);
+ const [canvas,setCanvas]=useState({width:1920,height:1080});
  const [ready,setReady]=useState(false),[playing,setPlaying]=useState(false),[progress,setProgress]=useState(0),[ended,setEnded]=useState(false);
- useEffect(()=>setReady(true),[]);
+ useEffect(()=>{
+  const measure=()=>{const rect=section.current.getBoundingClientRect();setCanvas({width:Math.max(1,Math.round(rect.width)),height:Math.max(1,Math.round(rect.height))});setReady(true);};
+  measure();const observer=new ResizeObserver(measure);observer.observe(section.current);return()=>observer.disconnect();
+ },[]);
  const play=()=>{setEnded(false);if(reduced.current&&film.current?.getCurrentFrame()>=1000)film.current.seekTo(0);film.current?.play();};
  const replay=()=>{film.current?.seekTo(0);setProgress(0);play();};
  const hero=()=>{film.current?.pause();const target=document.getElementById('home-hero');if(!target)return;const header=document.querySelector('.site-header')?.getBoundingClientRect().height||66;window.scrollTo({top:target.getBoundingClientRect().top+window.scrollY-header,behavior:reduced.current?'instant':'smooth'});if(section.current?.contains(document.activeElement))target.focus({preventScroll:true});};
@@ -28,7 +32,7 @@ export default function EntryIntro(){
  },[ready]);
  return <section ref={section} className="entry-intro" id="intro" aria-label="MatchDocket cinematic introduction">
   <div className="entry-intro-backdrop" aria-hidden="true"/>
-  {ready?<Player ref={film} className="entry-intro-video" component={CanyonIntro} durationInFrames={1080} compositionWidth={1920} compositionHeight={1080} fps={60} initiallyMuted controls={false} clickToPlay={false} doubleClickToFullscreen={false} spaceKeyToPlayOrPause={false} moveToBeginningWhenEnded={false} style={{width:'100%',height:'100%'}}/>:<img className="entry-intro-video" src="/brand/intro/poster.jpg" alt="Sunrise across a sandstone canyon and winding river"/>}
+  {ready?<Player ref={film} className="entry-intro-video" component={CanyonIntro} durationInFrames={1080} compositionWidth={canvas.width} compositionHeight={canvas.height} fps={60} initiallyMuted controls={false} clickToPlay={false} doubleClickToFullscreen={false} spaceKeyToPlayOrPause={false} moveToBeginningWhenEnded={false} style={{width:'100%',height:'100%'}}/>:<img className="entry-intro-video" src="/brand/intro/poster.jpg" alt="Sunrise across a sandstone canyon and winding river"/>}
   <h2 className="sr-only">Clear evidence. Human control.</h2>
   <p className="sr-only">18-second synthetic demonstration: $10,400 invoice, $10,000 purchase order, 98 units received, $600 disputed. Review pending. No payment, bank change or ERP write.</p>
   <div className="entry-intro-controls"><span className="entry-intro-caption">DOCKET SIGNAL <i/> 18 SECOND INTRO</span><div>
