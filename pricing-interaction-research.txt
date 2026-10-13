@@ -1,0 +1,17 @@
+MatchDocket pricing interactions — 13 October 2026
+
+Research provider: configured Perplexity research tool, high preset.
+Decision: preserve article containers and explicit destination links. Use a shallow 2px lift, soft elevation, a low-opacity warm surface wash and a burgundy top hairline. Keep hypothetical prices, qualifications and CTAs visible at rest. Provide focus-within emphasis and a separate link focus ring. Limit hover movement to fine pointers with hover support; remove lift and transitions in reduced-motion mode.
+
+These visual treatments are original recommendations, not hover behavior verified on competitors. Research retrieval did not establish actual hover animations on Ramp, Numeric or Linear pricing pages.
+
+Primary references:
+Material states: https://m3.material.io/foundations/interaction/states/applying-states
+Material motion tokens: https://m3.material.io/styles/motion/easing-and-duration/tokens-specs
+Card semantics: https://m3.material.io/components/cards/accessibility
+Hover input: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/hover
+Keyboard container focus: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus-within
+Reduced motion: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion
+Focus visibility: https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html
+
+QA: actual desktop card hover showed translateY(-2px), burgundy border and a fully drawn top hairline. Keyboard navigation activated second-card focus-within. 390px and 775px layouts had no page overflow. Pilot packet controls and reduced-motion static state verified.
