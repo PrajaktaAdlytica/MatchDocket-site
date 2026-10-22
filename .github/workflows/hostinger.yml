@@ -1,0 +1,43 @@
+name: Build Hostinger static site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: hostinger-deploy
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm run check
+      - run: node scripts/prepare-hostinger.mjs
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+      - name: Check out deployment branch
+        uses: actions/checkout@v4
+        with:
+          ref: hostinger-deploy
+          path: .hostinger-output
+      - name: Publish built files
+        run: |
+          rsync -a --delete --exclude='.git' dist/ .hostinger-output/
+          cd .hostinger-output
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --all
+          if git diff --cached --quiet; then
+            echo 'Built site is unchanged.'
+          else
+            git commit -m "Deploy static site from ${GITHUB_SHA}"
+            git push origin HEAD:hostinger-deploy
+          fi

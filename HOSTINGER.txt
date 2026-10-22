@@ -1,0 +1,38 @@
+MATCHDOCKET — HOSTINGER STATIC GIT DEPLOYMENT
+
+Hostinger website type: Custom PHP/HTML (regular web hosting).
+Repository: https://github.com/PrajaktaAdlytica/MatchDocket-site.git
+Branch: hostinger-deploy
+Deploy directory: public_html (not dist).
+Build/start command: none. This branch already contains the finished build.
+
+main retains all editable source, brand kit, logo files and Remotion project.
+hostinger-deploy contains only the public site: HTML, CSS, JS, fonts, production
+brand assets, canyon intro assets and .htaccess. Source kits are not web content.
+
+Connect in hPanel: Websites > this website > Dashboard > Advanced > Git.
+Connect GitHub, select this repository, select hostinger-deploy and deploy.
+Use an empty website directory; preserve existing content before replacing it.
+Enable/confirm automatic deployments in the Git screen if offered.
+Future main pushes run the GitHub Actions workflow and update hostinger-deploy.
+
+DOMAIN: In GitHub Settings > Secrets and variables > Actions > Variables,
+create repository variable SITE_URL with the final HTTPS origin, e.g.
+https://your-domain.com (no path). Then Actions > Build Hostinger static site >
+Run workflow. This updates canonical URLs, social image URLs and sitemap.
+Until configured, those domain-specific fields are omitted rather than pointing
+at the old preview host. The website itself works normally without SITE_URL.
+
+Connect the domain to this hosting website using hPanel's displayed DNS values,
+then verify SSL/HTTPS. Domain registration alone does not select its website.
+Keep the Vercel deployment until the Hostinger site has been verified.
+
+After deployment check /, /product, /product/invoice-intake, /demo,
+/demo/cases/AP-0418, /request-audit, /sign-in and a nonexistent URL (HTTP 404).
+Check intro play, skip, finish-to-hero, replay, mobile navigation and assets.
+
+Local rebuild: npm ci; npm run build; npm run check;
+SITE_URL=https://your-domain.com node scripts/prepare-hostinger.mjs
+
+Forms and sign-in remain the agreed frontend concept previews. Hosting does not
+add authentication, email delivery, payment processing or ERP integrations.
