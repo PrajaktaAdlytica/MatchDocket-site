@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /demo
 Disallow: /sign-in
+Sitemap: https://matchdocket.com/sitemap.xml
